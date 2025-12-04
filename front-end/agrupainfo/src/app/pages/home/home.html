@@ -1,1 +1,179 @@
-<p>home works!</p>
+<div class="min-h-screen flex flex-col font-sans bg-gray-50">
+
+
+
+	<header class="bg-blue-900 text-white py-16 px-4 text-center shadow-lg border-b-4 border-cib-orange relative overflow-hidden">
+		<div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjIiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xKSIvPjwvc3ZnPg==')] opacity-20"></div>
+
+
+
+		<div class="relative z-10 max-w-4xl mx-auto">
+			<h1 class="text-5xl md:text-6xl font-extrabold tracking-tight leading-tight">
+				Observa
+				<span class="text-orange-300">Blu</span>
+			</h1>
+			<p class="text-xl md:text-2xl mt-4 opacity-90 font-light">
+				Observatório Econômico e de Inovação de Blumenau
+			</p>
+
+
+
+			<div class="flex flex-wrap justify-center gap-4 mt-10">
+
+
+				<a routerLink="/dashboard"
+					class="group bg-cib-orange text-white px-8 py-3 rounded-full font-bold text-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl hover:bg-orange-600 flex items-center gap-2 cursor-pointer">
+					<span>📊</span>
+					Acessar Dashboard
+					<svg xmlns="http://www.w3.org/2000/svg"
+						class="h-5 w-5 group-hover:translate-x-1 transition-transform"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke="currentColor">
+						<path stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+					</svg>
+				</a>
+
+
+				<a routerLink="/filter"
+					class="group bg-white text-blue-900 px-8 py-3 rounded-full font-bold text-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl hover:bg-gray-100 flex items-center gap-2 cursor-pointer">
+					<span>🔍</span>
+					Filtrar Dados
+				</a>
+
+
+			</div>
+		</div>
+	</header>
+
+
+
+	<main class="flex-grow py-16 px-4">
+		<div class="max-w-6xl mx-auto">
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+
+
+				<div class="bg-white p-8 rounded-2xl shadow-md text-center border-t-4 border-cib-blue hover:border-cib-orange transition-colors duration-300 transform hover:-translate-y-2">
+					<div class="text-4xl mb-4">🏛️</div>
+					<h3 class="text-2xl font-bold text-cib-blue mb-4">Princípios</h3>
+					<p class="text-gray-600 leading-relaxed">
+						Transparência absoluta, ética rigorosa no tratamento de dados e compromisso com o desenvolvimento sustentável da região.
+					</p>
+				</div>
+
+
+
+				<div class="bg-white p-8 rounded-2xl shadow-md text-center border-t-4 border-cib-blue hover:border-cib-orange transition-colors duration-300 transform hover:-translate-y-2">
+					<div class="text-4xl mb-4">🚀</div>
+					<h3 class="text-2xl font-bold text-cib-blue mb-4">Missão</h3>
+					<p class="text-gray-600 leading-relaxed">
+						Centralizar dados dispersos e transformá-los em inteligência estratégica para impulsionar o ecossistema de inovação.
+					</p>
+				</div>
+
+
+
+				<div class="bg-white p-8 rounded-2xl shadow-md text-center border-t-4 border-cib-blue hover:border-cib-orange transition-colors duration-300 transform hover:-translate-y-2">
+					<div class="text-4xl mb-4">👁️</div>
+					<h3 class="text-2xl font-bold text-cib-blue mb-4">Visão</h3>
+					<p class="text-gray-600 leading-relaxed">
+						Ser a fonte primária e a referência indispensável em análise econômica e tecnológica do Vale do Itajaí até 2030.
+					</p>
+				</div>
+
+
+
+			</div>
+		</div>
+	</main>
+
+
+
+	<footer class="bg-blue-900 text-white font-sans mt-auto">
+  <div class="w-full h-1 bg-gradient-to-r from-blue-400 via-white to-red-500"></div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <div class="flex flex-col space-y-4">
+        <h2 class="text-2xl font-bold tracking-tight">
+          Observa<span class="text-blue-300">Blu</span>
+        </h2>
+        <p class="text-blue-100 text-sm leading-relaxed max-w-xs">
+          Centralizando dados e impulsionando o desenvolvimento econômico de Blumenau através da tecnologia e inteligência de dados.
+        </p>
+        <div class="pt-2">
+          <span class="inline-block px-3 py-1 bg-blue-800 rounded-full text-xs font-semibold text-blue-200 border border-blue-700">
+            Versão Beta 1.0
+          </span>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="text-lg font-semibold mb-4 border-b border-blue-700 pb-2 inline-block">
+          Navegação
+        </h3>
+        <ul class="space-y-2 text-sm text-blue-100">
+          <li>
+            <a href="#" class="hover:text-white hover:underline transition-all flex items-center gap-2">
+              <span class="w-1 h-1 bg-blue-400 rounded-full"></span> Indicadores Econômicos
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-white hover:underline transition-all flex items-center gap-2">
+              <span class="w-1 h-1 bg-blue-400 rounded-full"></span> Mapa de Oportunidades
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-white hover:underline transition-all flex items-center gap-2">
+              <span class="w-1 h-1 bg-blue-400 rounded-full"></span> Sobre o Projeto
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hover:text-white hover:underline transition-all flex items-center gap-2">
+              <span class="w-1 h-1 bg-blue-400 rounded-full"></span> Transparência
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-lg font-semibold mb-4 border-b border-blue-700 pb-2 inline-block">
+          Realização
+        </h3>
+        <div class="flex flex-col space-y-4 text-sm text-blue-100">
+          <p>Um projeto desenvolvido durante o Hackathon:</p>
+          <div class="flex items-center gap-4">
+            <div class="font-bold text-white bg-blue-800 px-3 py-2 rounded">
+              +Devs2Blu
+            </div>
+            <div class="font-bold text-white bg-blue-800 px-3 py-2 rounded">
+              Blusoft
+            </div>
+          </div>
+          <p class="text-xs opacity-75 mt-2">
+            Focado em soluções para a cidade de Blumenau/SC.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="bg-blue-950 py-4 border-t border-blue-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center text-xs text-blue-300">
+      <p>&copy; 2025 ObservaBlu. Todos os direitos reservados.</p>
+      <div class="flex space-x-6 mt-2 md:mt-0">
+        <a href="#" class="hover:text-white transition-colors">Política de Privacidade</a>
+        <a href="#" class="hover:text-white transition-colors">Termos de Uso</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</div>
