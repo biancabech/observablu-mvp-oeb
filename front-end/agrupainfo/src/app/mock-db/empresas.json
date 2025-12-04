@@ -1,0 +1,248 @@
+{
+  "totalEmpresas": 42850,
+  "ultimaAtualizacao": "2024-12-01",
+  "empresasPorSetor": [
+    {
+      "setor": "Indústria Têxtil e Confecções",
+      "quantidade": 8500,
+      "percentual": 19.8,
+      "crescimentoAnual": 2.3
+    },
+    {
+      "setor": "Comércio Varejista",
+      "quantidade": 7200,
+      "percentual": 16.8,
+      "crescimentoAnual": 3.1
+    },
+    {
+      "setor": "Tecnologia e Informática",
+      "quantidade": 5800,
+      "percentual": 13.5,
+      "crescimentoAnual": 8.7
+    },
+    {
+      "setor": "Serviços Profissionais",
+      "quantidade": 4650,
+      "percentual": 10.9,
+      "crescimentoAnual": 4.2
+    },
+    {
+      "setor": "Alimentação e Bebidas",
+      "quantidade": 3900,
+      "percentual": 9.1,
+      "crescimentoAnual": 5.5
+    },
+    {
+      "setor": "Construção Civil",
+      "quantidade": 3200,
+      "percentual": 7.5,
+      "crescimentoAnual": 1.8
+    },
+    {
+      "setor": "Saúde e Bem-Estar",
+      "quantidade": 2850,
+      "percentual": 6.7,
+      "crescimentoAnual": 6.2
+    },
+    {
+      "setor": "Educação",
+      "quantidade": 2100,
+      "percentual": 4.9,
+      "crescimentoAnual": 3.5
+    },
+    {
+      "setor": "Turismo e Hotelaria",
+      "quantidade": 1750,
+      "percentual": 4.1,
+      "crescimentoAnual": 7.1
+    },
+    {
+      "setor": "Indústria Metal-Mecânica",
+      "quantidade": 1500,
+      "percentual": 3.5,
+      "crescimentoAnual": 2.9
+    },
+    {
+      "setor": "Outros",
+      "quantidade": 1400,
+      "percentual": 3.2,
+      "crescimentoAnual": 2.5
+    }
+  ],
+  "empresasPorPorte": [
+    {
+      "porte": "MEI",
+      "quantidade": 22500,
+      "percentual": 52.5
+    },
+    {
+      "porte": "Microempresa",
+      "quantidade": 14200,
+      "percentual": 33.1
+    },
+    {
+      "porte": "Pequena Empresa",
+      "quantidade": 4850,
+      "percentual": 11.3
+    },
+    {
+      "porte": "Média Empresa",
+      "quantidade": 980,
+      "percentual": 2.3
+    },
+    {
+      "porte": "Grande Empresa",
+      "quantidade": 320,
+      "percentual": 0.8
+    }
+  ],
+  "empresasPorBairro": [
+    {
+      "bairro": "Centro",
+      "quantidade": 6800,
+      "percentual": 15.9,
+      "principalSetor": "Comércio Varejista"
+    },
+    {
+      "bairro": "Velha",
+      "quantidade": 4200,
+      "percentual": 9.8,
+      "principalSetor": "Indústria Têxtil"
+    },
+    {
+      "bairro": "Garcia",
+      "quantidade": 3850,
+      "percentual": 9.0,
+      "principalSetor": "Comércio Varejista"
+    },
+    {
+      "bairro": "Itoupava Seca",
+      "quantidade": 3200,
+      "percentual": 7.5,
+      "principalSetor": "Indústria Têxtil"
+    },
+    {
+      "bairro": "Fortaleza",
+      "quantidade": 2900,
+      "percentual": 6.8,
+      "principalSetor": "Tecnologia"
+    },
+    {
+      "bairro": "Ponta Aguda",
+      "quantidade": 2650,
+      "percentual": 6.2,
+      "principalSetor": "Indústria Metal-Mecânica"
+    },
+    {
+      "bairro": "Victor Konder",
+      "quantidade": 2400,
+      "percentual": 5.6,
+      "principalSetor": "Comércio Varejista"
+    },
+    {
+      "bairro": "Salto",
+      "quantidade": 2100,
+      "percentual": 4.9,
+      "principalSetor": "Alimentação"
+    },
+    {
+      "bairro": "Itoupava Norte",
+      "quantidade": 1950,
+      "percentual": 4.6,
+      "principalSetor": "Indústria Têxtil"
+    },
+    {
+      "bairro": "Água Verde",
+      "quantidade": 1800,
+      "percentual": 4.2,
+      "principalSetor": "Serviços"
+    },
+    {
+      "bairro": "Outros Bairros",
+      "quantidade": 11000,
+      "percentual": 25.5,
+      "principalSetor": "Diversos"
+    }
+  ],
+  "evolucaoTemporal": [
+    {
+      "ano": 2018,
+      "total": 35200,
+      "novasEmpresas": 3850,
+      "empresasFechadas": 2120
+    },
+    {
+      "ano": 2019,
+      "total": 37500,
+      "novasEmpresas": 4200,
+      "empresasFechadas": 1900
+    },
+    {
+      "ano": 2020,
+      "total": 38100,
+      "novasEmpresas": 3100,
+      "empresasFechadas": 2500
+    },
+    {
+      "ano": 2021,
+      "total": 39800,
+      "novasEmpresas": 4300,
+      "empresasFechadas": 2600
+    },
+    {
+      "ano": 2022,
+      "total": 41200,
+      "novasEmpresas": 4650,
+      "empresasFechadas": 3250
+    },
+    {
+      "ano": 2023,
+      "total": 42100,
+      "novasEmpresas": 4800,
+      "empresasFechadas": 3900
+    },
+    {
+      "ano": 2024,
+      "total": 42850,
+      "novasEmpresas": 5100,
+      "empresasFechadas": 4350
+    }
+  ],
+  "empresasDestaque": [
+    {
+      "nome": "Hering",
+      "setor": "Indústria Têxtil",
+      "porte": "Grande Empresa",
+      "funcionarios": 4500,
+      "anoFundacao": 1880
+    },
+    {
+      "nome": "Softplan",
+      "setor": "Tecnologia",
+      "porte": "Média Empresa",
+      "funcionarios": 1200,
+      "anoFundacao": 1990
+    },
+    {
+      "nome": "Blu Solutions",
+      "setor": "Tecnologia",
+      "porte": "Média Empresa",
+      "funcionarios": 800,
+      "anoFundacao": 2000
+    },
+    {
+      "nome": "Grupo Malwee",
+      "setor": "Indústria Têxtil",
+      "porte": "Grande Empresa",
+      "funcionarios": 3500,
+      "anoFundacao": 1968
+    },
+    {
+      "nome": "Keko Acessórios",
+      "setor": "Indústria Têxtil",
+      "porte": "Média Empresa",
+      "funcionarios": 650,
+      "anoFundacao": 1985
+    }
+  ]
+}

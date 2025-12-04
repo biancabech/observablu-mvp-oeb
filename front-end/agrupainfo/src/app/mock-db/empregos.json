@@ -1,0 +1,325 @@
+{
+  "totalEmpregos": 185420,
+  "ultimaAtualizacao": "2024-11-30",
+  "empregosPorSetor": [
+    {
+      "setor": "Indústria Têxtil e Confecções",
+      "empregos": 42500,
+      "percentual": 22.9,
+      "salarioMedio": 2850,
+      "crescimentoAnual": 1.8
+    },
+    {
+      "setor": "Comércio Varejista",
+      "empregos": 35200,
+      "percentual": 19.0,
+      "salarioMedio": 2100,
+      "crescimentoAnual": 3.5
+    },
+    {
+      "setor": "Tecnologia e Informática",
+      "empregos": 28500,
+      "percentual": 15.4,
+      "salarioMedio": 6500,
+      "crescimentoAnual": 12.3
+    },
+    {
+      "setor": "Serviços Profissionais",
+      "empregos": 18900,
+      "percentual": 10.2,
+      "salarioMedio": 3800,
+      "crescimentoAnual": 4.7
+    },
+    {
+      "setor": "Saúde e Bem-Estar",
+      "empregos": 16200,
+      "percentual": 8.7,
+      "salarioMedio": 4200,
+      "crescimentoAnual": 6.8
+    },
+    {
+      "setor": "Construção Civil",
+      "empregos": 12800,
+      "percentual": 6.9,
+      "salarioMedio": 2600,
+      "crescimentoAnual": 2.1
+    },
+    {
+      "setor": "Alimentação e Bebidas",
+      "empregos": 11500,
+      "percentual": 6.2,
+      "salarioMedio": 1980,
+      "crescimentoAnual": 5.2
+    },
+    {
+      "setor": "Educação",
+      "empregos": 9200,
+      "percentual": 5.0,
+      "salarioMedio": 3500,
+      "crescimentoAnual": 3.1
+    },
+    {
+      "setor": "Indústria Metal-Mecânica",
+      "empregos": 6400,
+      "percentual": 3.5,
+      "salarioMedio": 3200,
+      "crescimentoAnual": 2.5
+    },
+    {
+      "setor": "Turismo e Hotelaria",
+      "empregos": 4220,
+      "percentual": 2.2,
+      "salarioMedio": 2200,
+      "crescimentoAnual": 8.5
+    }
+  ],
+  "geracaoEmpregosMensal": [
+    {
+      "mes": "Janeiro",
+      "ano": 2024,
+      "admissoes": 3850,
+      "demissoes": 2920,
+      "saldoLiquido": 930
+    },
+    {
+      "mes": "Fevereiro",
+      "ano": 2024,
+      "admissoes": 4200,
+      "demissoes": 3100,
+      "saldoLiquido": 1100
+    },
+    {
+      "mes": "Março",
+      "ano": 2024,
+      "admissoes": 5100,
+      "demissoes": 3400,
+      "saldoLiquido": 1700
+    },
+    {
+      "mes": "Abril",
+      "ano": 2024,
+      "admissoes": 4850,
+      "demissoes": 3650,
+      "saldoLiquido": 1200
+    },
+    {
+      "mes": "Maio",
+      "ano": 2024,
+      "admissoes": 4600,
+      "demissoes": 3500,
+      "saldoLiquido": 1100
+    },
+    {
+      "mes": "Junho",
+      "ano": 2024,
+      "admissoes": 3900,
+      "demissoes": 3200,
+      "saldoLiquido": 700
+    },
+    {
+      "mes": "Julho",
+      "ano": 2024,
+      "admissoes": 4100,
+      "demissoes": 3450,
+      "saldoLiquido": 650
+    },
+    {
+      "mes": "Agosto",
+      "ano": 2024,
+      "admissoes": 5200,
+      "demissoes": 3800,
+      "saldoLiquido": 1400
+    },
+    {
+      "mes": "Setembro",
+      "ano": 2024,
+      "admissoes": 5500,
+      "demissoes": 3950,
+      "saldoLiquido": 1550
+    },
+    {
+      "mes": "Outubro",
+      "ano": 2024,
+      "admissoes": 6100,
+      "demissoes": 4200,
+      "saldoLiquido": 1900
+    },
+    {
+      "mes": "Novembro",
+      "ano": 2024,
+      "admissoes": 5800,
+      "demissoes": 4100,
+      "saldoLiquido": 1700
+    },
+    {
+      "mes": "Dezembro",
+      "ano": 2024,
+      "admissoes": 4500,
+      "demissoes": 3500,
+      "saldoLiquido": 1000
+    }
+  ],
+  "evolucaoAnual": [
+    {
+      "ano": 2018,
+      "totalEmpregos": 158200,
+      "admissoes": 42500,
+      "demissoes": 38200,
+      "saldoLiquido": 4300,
+      "taxaCrescimento": 2.8
+    },
+    {
+      "ano": 2019,
+      "totalEmpregos": 165800,
+      "admissoes": 48300,
+      "demissoes": 40700,
+      "saldoLiquido": 7600,
+      "taxaCrescimento": 4.8
+    },
+    {
+      "ano": 2020,
+      "totalEmpregos": 162500,
+      "admissoes": 38200,
+      "demissoes": 41500,
+      "saldoLiquido": -3300,
+      "taxaCrescimento": -2.0
+    },
+    {
+      "ano": 2021,
+      "totalEmpregos": 169200,
+      "admissoes": 45800,
+      "demissoes": 39100,
+      "saldoLiquido": 6700,
+      "taxaCrescimento": 4.1
+    },
+    {
+      "ano": 2022,
+      "totalEmpregos": 176500,
+      "admissoes": 52100,
+      "demissoes": 44800,
+      "saldoLiquido": 7300,
+      "taxaCrescimento": 4.3
+    },
+    {
+      "ano": 2023,
+      "totalEmpregos": 181100,
+      "admissoes": 54200,
+      "demissoes": 49600,
+      "saldoLiquido": 4600,
+      "taxaCrescimento": 2.6
+    },
+    {
+      "ano": 2024,
+      "totalEmpregos": 185420,
+      "admissoes": 57700,
+      "demissoes": 53270,
+      "saldoLiquido": 4320,
+      "taxaCrescimento": 2.4
+    }
+  ],
+  "empregosPorFaixaEtaria": [
+    {
+      "faixaEtaria": "18-24 anos",
+      "quantidade": 28500,
+      "percentual": 15.4
+    },
+    {
+      "faixaEtaria": "25-34 anos",
+      "quantidade": 62800,
+      "percentual": 33.9
+    },
+    {
+      "faixaEtaria": "35-44 anos",
+      "quantidade": 52100,
+      "percentual": 28.1
+    },
+    {
+      "faixaEtaria": "45-54 anos",
+      "quantidade": 30200,
+      "percentual": 16.3
+    },
+    {
+      "faixaEtaria": "55+ anos",
+      "quantidade": 11820,
+      "percentual": 6.3
+    }
+  ],
+  "empregosPorEscolaridade": [
+    {
+      "escolaridade": "Fundamental Incompleto",
+      "quantidade": 12500,
+      "percentual": 6.7,
+      "salarioMedio": 1650
+    },
+    {
+      "escolaridade": "Fundamental Completo",
+      "quantidade": 18900,
+      "percentual": 10.2,
+      "salarioMedio": 1850
+    },
+    {
+      "escolaridade": "Médio Incompleto",
+      "quantidade": 15200,
+      "percentual": 8.2,
+      "salarioMedio": 1950
+    },
+    {
+      "escolaridade": "Médio Completo",
+      "quantidade": 65800,
+      "percentual": 35.5,
+      "salarioMedio": 2400
+    },
+    {
+      "escolaridade": "Superior Incompleto",
+      "quantidade": 22100,
+      "percentual": 11.9,
+      "salarioMedio": 3200
+    },
+    {
+      "escolaridade": "Superior Completo",
+      "quantidade": 45200,
+      "percentual": 24.4,
+      "salarioMedio": 5800
+    },
+    {
+      "escolaridade": "Pós-graduação",
+      "quantidade": 5720,
+      "percentual": 3.1,
+      "salarioMedio": 8500
+    }
+  ],
+  "empregosPorGenero": {
+    "masculino": {
+      "quantidade": 98500,
+      "percentual": 53.1,
+      "salarioMedio": 3450
+    },
+    "feminino": {
+      "quantidade": 86920,
+      "percentual": 46.9,
+      "salarioMedio": 3100
+    }
+  },
+  "taxaDesemprego": [
+    {
+      "periodo": "2024-Q1",
+      "taxa": 5.8,
+      "populacaoDesempregada": 11400
+    },
+    {
+      "periodo": "2024-Q2",
+      "taxa": 5.2,
+      "populacaoDesempregada": 10200
+    },
+    {
+      "periodo": "2024-Q3",
+      "taxa": 4.9,
+      "populacaoDesempregada": 9600
+    },
+    {
+      "periodo": "2024-Q4",
+      "taxa": 4.6,
+      "populacaoDesempregada": 9000
+    }
+  ]
+}
