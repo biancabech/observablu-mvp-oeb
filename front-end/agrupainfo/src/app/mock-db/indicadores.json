@@ -1,0 +1,245 @@
+{
+  "indicadoresGerais": {
+    "municipio": "Blumenau",
+    "estado": "Santa Catarina",
+    "ultimaAtualizacao": "2024-12-01"
+  },
+  "populacao": {
+    "total": 366418,
+    "ano": 2024,
+    "crescimentoAnual": 1.2,
+    "densidade": 704.8,
+    "unidade": "habitantes por km²",
+    "evolucao": [
+      { "ano": 2018, "populacao": 348513 },
+      { "ano": 2019, "populacao": 352885 },
+      { "ano": 2020, "populacao": 357750 },
+      { "ano": 2021, "populacao": 361254 },
+      { "ano": 2022, "populacao": 363789 },
+      { "ano": 2023, "populacao": 365234 },
+      { "ano": 2024, "populacao": 366418 }
+    ],
+    "distribuicaoEtaria": [
+      { "faixa": "0-14 anos", "quantidade": 62891, "percentual": 17.2 },
+      { "faixa": "15-29 anos", "quantidade": 73542, "percentual": 20.1 },
+      { "faixa": "30-44 anos", "quantidade": 95668, "percentual": 26.1 },
+      { "faixa": "45-59 anos", "quantidade": 84354, "percentual": 23.0 },
+      { "faixa": "60+ anos", "quantidade": 49963, "percentual": 13.6 }
+    ]
+  },
+  "pib": {
+    "total": 18500000000,
+    "unidade": "reais",
+    "ano": 2023,
+    "perCapita": 50642,
+    "crescimentoAnual": 3.8,
+    "evolucao": [
+      { "ano": 2018, "pib": 14200000000, "perCapita": 40750 },
+      { "ano": 2019, "pib": 15100000000, "perCapita": 42800 },
+      { "ano": 2020, "pib": 14800000000, "perCapita": 41350 },
+      { "ano": 2021, "pib": 16200000000, "perCapita": 44850 },
+      { "ano": 2022, "pib": 17300000000, "perCapita": 47550 },
+      { "ano": 2023, "pib": 18500000000, "perCapita": 50642 }
+    ],
+    "composicao": [
+      {
+        "setor": "Indústria",
+        "valor": 7400000000,
+        "percentual": 40.0
+      },
+      {
+        "setor": "Serviços",
+        "valor": 9620000000,
+        "percentual": 52.0
+      },
+      {
+        "setor": "Agropecuária",
+        "valor": 370000000,
+        "percentual": 2.0
+      },
+      {
+        "setor": "Impostos",
+        "valor": 1110000000,
+        "percentual": 6.0
+      }
+    ]
+  },
+  "renda": {
+    "rendaMensalMedia": 3485,
+    "rendaDomiciliarMedia": 5820,
+    "unidade": "reais",
+    "ano": 2024,
+    "salarioMinimo": 1412,
+    "evolucao": [
+      { "ano": 2018, "rendaMedia": 2850, "rendaDomiciliar": 4750 },
+      { "ano": 2019, "rendaMedia": 3020, "rendaDomiciliar": 5020 },
+      { "ano": 2020, "rendaMedia": 3100, "rendaDomiciliar": 5150 },
+      { "ano": 2021, "rendaMedia": 3200, "rendaDomiciliar": 5320 },
+      { "ano": 2022, "rendaMedia": 3350, "rendaDomiciliar": 5580 },
+      { "ano": 2023, "rendaMedia": 3420, "rendaDomiciliar": 5700 },
+      { "ano": 2024, "rendaMedia": 3485, "rendaDomiciliar": 5820 }
+    ],
+    "distribuicaoRenda": [
+      {
+        "faixa": "Até 1 salário mínimo",
+        "percentual": 18.5,
+        "quantidade": 68087
+      },
+      {
+        "faixa": "1 a 2 salários mínimos",
+        "percentual": 28.3,
+        "quantidade": 104096
+      },
+      {
+        "faixa": "2 a 5 salários mínimos",
+        "percentual": 32.8,
+        "quantidade": 120626
+      },
+      {
+        "faixa": "5 a 10 salários mínimos",
+        "percentual": 13.2,
+        "quantidade": 48547
+      },
+      {
+        "faixa": "Acima de 10 salários mínimos",
+        "percentual": 7.2,
+        "quantidade": 26462
+      }
+    ]
+  },
+  "educacao": {
+    "taxaAlfabetizacao": 98.5,
+    "ideb": {
+      "ensinoFundamentalI": 6.8,
+      "ensinoFundamentalII": 5.9,
+      "ensinoMedio": 5.2
+    },
+    "matriculas": {
+      "educacaoInfantil": 18500,
+      "ensinoFundamental": 42800,
+      "ensinoMedio": 16200,
+      "ensinoSuperior": 28900,
+      "total": 106400
+    },
+    "instituicoesEnsino": {
+      "municipais": 85,
+      "estaduais": 42,
+      "federais": 3,
+      "privadas": 156,
+      "total": 286
+    }
+  },
+  "saude": {
+    "expectativaVida": 78.5,
+    "mortalidadeInfantil": 8.2,
+    "unidadeSaude": "por mil nascidos vivos",
+    "estabelecimentosSaude": {
+      "hospitais": 12,
+      "ubsPostos": 48,
+      "clinicas": 235,
+      "total": 295
+    },
+    "leitos": {
+      "sus": 850,
+      "privados": 620,
+      "total": 1470
+    },
+    "coberturaSaude": {
+      "sus": 68.5,
+      "planoPrivado": 31.5
+    }
+  },
+  "infraestrutura": {
+    "saneamento": {
+      "aguaEncanada": 98.8,
+      "esgotoTratado": 92.3,
+      "coletaLixo": 99.5
+    },
+    "energia": {
+      "coberturaEletrica": 99.8,
+      "consumoMedioMensal": 185.5,
+      "unidade": "kWh per capita"
+    },
+    "transporte": {
+      "frotaVeiculos": 245800,
+      "veiculosPorHabitante": 0.67,
+      "linhasOnibus": 87,
+      "frotaOnibus": 285
+    },
+    "internet": {
+      "domiciliosConectados": 88.5,
+      "velocidadeMedia": 120.5,
+      "unidade": "Mbps"
+    }
+  },
+  "habitacao": {
+    "totalDomicilios": 128500,
+    "habitantesPorDomicilio": 2.85,
+    "tiposDomicilio": {
+      "casas": 78.2,
+      "apartamentos": 19.5,
+      "outros": 2.3
+    },
+    "situacaoDomicilio": {
+      "proprio": 68.5,
+      "alugado": 23.8,
+      "cedido": 5.2,
+      "outros": 2.5
+    }
+  },
+  "seguranca": {
+    "taxaHomicidios": 12.8,
+    "unidade": "por 100 mil habitantes",
+    "ano": 2023,
+    "efetivoPolicialPorHabitante": 2.8,
+    "unidadePolicial": "por mil habitantes"
+  },
+  "desenvolvimento": {
+    "idhm": 0.806,
+    "ano": 2021,
+    "ranking": {
+      "nacional": 21,
+      "estadual": 5
+    },
+    "componentesIDH": {
+      "longevidade": 0.857,
+      "educacao": 0.782,
+      "renda": 0.780
+    }
+  },
+  "turismo": {
+    "visitantesAnuais": 2850000,
+    "ano": 2023,
+    "receita": 580000000,
+    "unidade": "reais",
+    "hoteisEPousadas": 125,
+    "leitosDisponiveis": 8500,
+    "principaisAtracoes": [
+      "Oktoberfest",
+      "Vila Germânica",
+      "Parque Ramiro Ruediger",
+      "Museu da Cerveja",
+      "Castelinho da Moellmann"
+    ]
+  },
+  "meioAmbiente": {
+    "areaVerde": 45.8,
+    "unidade": "m² por habitante",
+    "coletaSeletiva": 42.5,
+    "unidadeColetaSeletiva": "percentual de domicílios atendidos",
+    "areasProtegidas": {
+      "parques": 18,
+      "areaTotalProtegida": 8500,
+      "unidadeArea": "hectares"
+    }
+  },
+  "tecnologiaInovacao": {
+    "empresasTecnologia": 5800,
+    "startups": 320,
+    "incubadoras": 4,
+    "centrosPesquisa": 12,
+    "patentesAnuais": 145,
+    "investimentoPD": 85000000,
+    "unidadeInvestimento": "reais/ano"
+  }
+}
