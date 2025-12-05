@@ -1,0 +1,57 @@
+<h2 class="text-2xl font-bold mb-4">Empresas por Setor</h2>
+
+<form [formGroup]="form" class="filtros flex flex-wrap gap-4 mb-6">
+  <input
+    type="text"
+    placeholder="Buscar setor..."
+    formControlName="q"
+    class="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 flex-1 min-w-[200px]"
+  />
+
+  <input
+    type="number"
+    placeholder="Qtd mínima"
+    formControlName="minQuantidade"
+    class="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 w-32"
+  />
+
+  <input
+    type="number"
+    placeholder="Qtd máxima"
+    formControlName="maxQuantidade"
+    class="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 w-32"
+  />
+
+  <input
+    type="number"
+    placeholder="% mínimo"
+    formControlName="minPercentual"
+    class="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 w-32"
+  />
+
+  <input
+    type="number"
+    placeholder="% máximo"
+    formControlName="maxPercentual"
+    class="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 w-32"
+  />
+
+  <button
+    type="button"
+    (click)="limpar()"
+    class="bg-blue-500 text-white rounded-md px-4 py-2 hover:bg-blue-600 transition-colors"
+  >
+    Limpar
+  </button>
+</form>
+
+<hr class="border-gray-200 mb-6">
+
+<div class="resultados grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  <div *ngFor="let item of filteredSetores" class="card bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition-shadow">
+    <h3 class="text-xl font-semibold mb-2">{{ item.setor }}</h3>
+    <p class="text-gray-700"><strong>Quantidade:</strong> {{ item.quantidade }}</p>
+    <p class="text-gray-700"><strong>Percentual:</strong> {{ item.percentual }}%</p>
+    <p class="text-gray-700"><strong>Crescimento anual:</strong> {{ item.crescimentoAnual }}%</p>
+  </div>
+</div>

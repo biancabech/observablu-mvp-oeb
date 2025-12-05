@@ -7,14 +7,14 @@ export class DataService {
   constructor(private http: HttpClient) {}
 
   getEmpresas(): Observable<any> {
-    return this.http.get<any>('assets/data/empresas.json');
+    return this.http.get<any>('/mock-db/empresas.json');  
   }
 
   getEmpregos(): Observable<any> {
-    return this.http.get<any>('assets/data/empregos.json');
+    return this.http.get<any>('/mock-db/empregos.json');   
   }
 
   getIndicadores(): Observable<any> {
-    return this.http.get<any>('assets/data/indicadores.json');
+    return this.http.get<any>('/data/indicadores.json');   
   }
 }
