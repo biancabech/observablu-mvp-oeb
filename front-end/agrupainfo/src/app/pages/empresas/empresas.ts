@@ -6,21 +6,21 @@ import { debounceTime } from 'rxjs/operators';
 
 @Component({
   selector: 'app-empresas',
-  standalone: true, 
+  standalone: true,
   templateUrl: './empresas.html',
   imports: [
-    CommonModule,       
-    ReactiveFormsModule  
+    CommonModule,
+    ReactiveFormsModule
   ]
 })
-export class EmpresasComponent implements OnInit {
+export class Empresas implements OnInit {
 
   form!: FormGroup;
 
   allSetores: any[] = [];
   filteredSetores: any[] = [];
 
-  constructor(private fb: FormBuilder, private ds: DataService) {}
+  constructor(private fb: FormBuilder, private ds: DataService) { }
 
   ngOnInit() {
     this.form = this.fb.group({
@@ -31,15 +31,15 @@ export class EmpresasComponent implements OnInit {
       maxPercentual: [null]
     });
 
-  this.ds.getEmpresas().subscribe(
-    data => {
-    this.allSetores = data.empresasPorSetor;
-    this.filteredSetores = [...this.allSetores];
-  },
-  error => {
-    console.error('Error fetching empresas:', error);
-  }
-);
+    this.ds.getEmpresas().subscribe(
+      data => {
+        this.allSetores = data.empresasPorSetor;
+        this.filteredSetores = [...this.allSetores];
+      },
+      error => {
+        console.error('Error fetching empresas:', error);
+      }
+    );
 
     this.form.valueChanges.pipe(debounceTime(200)).subscribe(() => {
       this.applyFilters();

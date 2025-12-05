@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import Chart from 'chart.js/auto';
-import empresasData from '../mock-db/empresas.json' assert { type: 'json' };
-import empregosData from '../mock-db/empregos.json' assert { type: 'json' };
-import indicadoresData from '../mock-db/indicadores.json' assert { type: 'json' };
+import empresasData from '../mock-db/empresas.json' with { type: 'json' };
+import empregosData from '../mock-db/empregos.json' with { type: 'json' };
+import indicadoresData from '../mock-db/indicadores.json' with { type: 'json' };
 
 @Injectable({
   providedIn: 'root'
@@ -11,30 +11,20 @@ export class DashboardService {
 
   constructor() { }
 
-  /**
-   * Carrega dados de empresas do mock-db
-   */
   getEmpresas() {
     return empresasData;
   }
 
-  /**
-   * Carrega dados de empregos do mock-db
-   */
   getEmpregos() {
     return empregosData;
   }
 
-  /**
-   * Carrega indicadores gerais do mock-db
-   */
+
   getIndicadores() {
     return indicadoresData;
   }
 
-  /**
-   * Retorna setores detalhados (combinação de empresas + empregos)
-   */
+
   getSetoresDetalhados() {
     const empresas = this.getEmpresas() as any;
     const empregos = this.getEmpregos() as any;
@@ -255,10 +245,7 @@ export class DashboardService {
     });
   }
 
-  /**
-   * Destrói um gráfico
-   * @param grafico - Instância do Chart a destruir
-   */
+
   destruirGrafico(grafico: Chart | undefined): void {
     if (grafico) {
       grafico.destroy();
