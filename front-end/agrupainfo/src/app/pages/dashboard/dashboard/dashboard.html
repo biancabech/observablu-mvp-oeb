@@ -1,0 +1,174 @@
+<div class="dashboard-container">
+
+  <div class="dashboard-header text-center mb-8">
+    <h1>Dados Econômico de Blumenau</h1>
+    <p class="subtitle">Dados atualizados em tempo real sobre o desenvolvimento econômico do município</p>
+  </div>
+
+  <div class="charts-container">
+
+    <!-- Gráfico de Barras - Empresas por Setor -->
+    <div class="chart-card">
+      <div class="chart-wrapper">
+        <canvas id="graficoSetores"></canvas>
+      </div>
+    </div>
+
+    <!-- Gráfico de Linha - Evolução Temporal -->
+    <div class="chart-card">
+      <div class="chart-wrapper">
+        <canvas id="graficoEvolucao"></canvas>
+      </div>
+    </div>
+
+    <!-- Gráfico de Pizza - Empregos por Setor -->
+    <div class="chart-card full-width">
+      <div class="chart-wrapper">
+        <canvas id="graficoEmpregos"></canvas>
+      </div>
+    </div>
+
+  </div>
+  <div class="overflow-x-auto rounded-lg shadow-md">
+    <table class="w-full bg-white">
+      <thead class="bg-gradient-to-r from-indigo-600 to-purple-600">
+        <tr>
+          <th class="px-6 py-4 text-left text-sm font-semibold text-white uppercase tracking-wider">
+            Indicador
+          </th>
+          <th class="px-6 py-4 text-center text-sm font-semibold text-white uppercase tracking-wider">
+            Valor
+          </th>
+          <th class="px-6 py-4 text-left text-sm font-semibold text-white uppercase tracking-wider">
+            Descrição
+          </th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-gray-100">
+        <tr class="hover:bg-blue-50 transition-colors duration-200">
+          <td class="px-6 py-4">
+            <div class="flex items-center gap-3">
+              <span class="text-2xl">🏢</span>
+              <span class="font-semibold text-gray-800">Total de Empresas</span>
+            </div>
+          </td>
+          <td class="px-6 py-4 text-center">
+            <span class="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 font-bold text-lg">
+              {{ totalEmpresas }}
+            </span>
+          </td>
+          <td class="px-6 py-4 text-gray-600">
+            Empresas ativas
+          </td>
+        </tr>
+
+        <tr class="hover:bg-green-50 transition-colors duration-200">
+          <td class="px-6 py-4">
+            <div class="flex items-center gap-3">
+              <span class="text-2xl">👥</span>
+              <span class="font-semibold text-gray-800">Empregos Gerados</span>
+            </div>
+          </td>
+          <td class="px-6 py-4 text-center">
+            <span class="inline-flex items-center px-4 py-2 rounded-full bg-green-100 text-green-700 font-bold text-lg">
+              {{ totalEmpregos }}
+            </span>
+          </td>
+          <td class="px-6 py-4 text-gray-600">
+            Postos de trabalho
+          </td>
+        </tr>
+
+        <tr class="hover:bg-orange-50 transition-colors duration-200">
+          <td class="px-6 py-4">
+            <div class="flex items-center gap-3">
+              <span class="text-2xl">📈</span>
+              <span class="font-semibold text-gray-800">Crescimento Anual</span>
+            </div>
+          </td>
+          <td class="px-6 py-4 text-center">
+            <span
+              class="inline-flex items-center px-4 py-2 rounded-full bg-orange-100 text-orange-700 font-bold text-lg">
+              {{ taxaCrescimento }}%
+            </span>
+          </td>
+          <td class="px-6 py-4 text-gray-600">
+            Variação 2024
+          </td>
+        </tr>
+
+        <tr class="hover:bg-purple-50 transition-colors duration-200">
+          <td class="px-6 py-4">
+            <div class="flex items-center gap-3">
+              <span class="text-2xl">🏭</span>
+              <span class="font-semibold text-gray-800">Setores Ativos</span>
+            </div>
+          </td>
+          <td class="px-6 py-4 text-center">
+            <span
+              class="inline-flex items-center px-4 py-2 rounded-full bg-purple-100 text-purple-700 font-bold text-lg">
+              {{ setoresAtivos }}
+            </span>
+          </td>
+          <td class="px-6 py-4 text-gray-600">
+            Setores econômicos
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <br>
+
+  <div class="table-section">
+    <h2>Detalhamento por Setor</h2>
+    <div class="table-card">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Setor</th>
+            <th>Empresas</th>
+            <th>Empregos</th>
+            <th>Salário Médio</th>
+            <th>Participação</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-100">
+          @for (setor of setoresDetalhados; track setor.setor) {
+          <tr class="hover:bg-gradient-to-r hover:from-purple-50 hover:to-transparent transition-all duration-300">
+            <td class="px-6 py-4">
+              <span class="font-semibold text-gray-800">{{ setor.setor }}</span>
+            </td>
+            <td class="px-6 py-4 text-center">
+              <span
+                class="inline-flex items-center px-3 py-1 rounded-full bg-purple-100 text-purple-700 font-medium text-sm">
+                {{ setor.quantidade }}
+              </span>
+            </td>
+            <td class="px-6 py-4 text-center text-gray-600">
+              {{ setor.empregos ? setor.empregos : '—' }}
+            </td>
+            <td class="px-6 py-4 text-right">
+              <span class="font-semibold text-gray-800">
+                {{ setor.salario ? ('R$ ' + setor.salario) : '—' }}
+              </span>
+            </td>
+            <td class="px-6 py-4">
+              <div class="flex items-center gap-3">
+                <div class="flex-1 h-2.5 bg-gray-200 rounded-full overflow-hidden shadow-inner">
+                  <div
+                    class="h-full bg-gradient-to-r from-purple-500 via-purple-600 to-indigo-600 rounded-full shadow-sm transition-all duration-700 ease-out"
+                    [style.width.%]="setor.percentual">
+                  </div>
+                </div>
+                <span class="text-sm font-bold text-purple-600 min-w-[45px] text-right">
+                  {{ setor.percentual }}%
+                </span>
+              </div>
+            </td>
+          </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
