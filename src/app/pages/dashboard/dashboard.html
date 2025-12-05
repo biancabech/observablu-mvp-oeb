@@ -1,30 +1,31 @@
-<div class="dashboard-container ml-15" style="width: 90vw; box-sizing: border-box;">
+<div class="dashboard-container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 box-border">
 
   <div class="dashboard-header text-center my-10">
-    <h1 id="t">Dados Econômico de Blumenau</h1>
-    <p class="subtitle">Dados atualizados em tempo real sobre o desenvolvimento econômico do município</p>
+    <h1 class="text-3xl sm:text-4xl font-bold">Dados Econômico de Blumenau</h1>
+    <p class="subtitle text-gray-600 mt-2">Dados atualizados em tempo real sobre o desenvolvimento econômico do
+      município</p>
   </div>
 
-  <div class="charts-container mb-10">
+  <div class="charts-container grid grid-cols-1 lg:grid-cols-2 gap-6 mb-10">
 
     <!-- Gráfico de Barras - Empresas por Setor -->
-    <div class="chart-card">
-      <div class="chart-wrapper">
-        <canvas id="graficoSetores"></canvas>
+    <div class="chart-card bg-white rounded-xl shadow-md p-4 h-full">
+      <div class="chart-wrapper h-64 sm:h-72 md:h-80">
+        <canvas id="graficoSetores" class="w-full h-full"></canvas>
       </div>
     </div>
 
     <!-- Gráfico de Linha - Evolução Temporal -->
-    <div class="chart-card">
-      <div class="chart-wrapper">
-        <canvas id="graficoEvolucao"></canvas>
+    <div class="chart-card bg-white rounded-xl shadow-md p-4 h-full">
+      <div class="chart-wrapper h-64 sm:h-72 md:h-80">
+        <canvas id="graficoEvolucao" class="w-full h-full"></canvas>
       </div>
     </div>
 
     <!-- Gráfico de Pizza - Empregos por Setor -->
-    <div class="chart-card full-width">
-      <div class="chart-wrapper">
-        <canvas id="graficoEmpregos"></canvas>
+    <div class="chart-card bg-white rounded-xl shadow-md p-4 h-full lg:col-span-2">
+      <div class="chart-wrapper h-72 sm:h-80 md:h-96">
+        <canvas id="graficoEmpregos" class="w-full h-full"></canvas>
       </div>
     </div>
 
@@ -119,10 +120,10 @@
   </div>
   <br>
 
-  <div class="table-section">
-    <h2>Detalhamento por Setor</h2>
-    <div class="table-card">
-      <table class="data-table">
+  <div class="table-section mt-10">
+    <h2 class="text-2xl font-bold mb-4">Detalhamento por Setor</h2>
+    <div class="table-card overflow-x-auto">
+      <table class="data-table min-w-full bg-white rounded-lg shadow-md">
         <thead>
           <tr>
             <th>Setor</th>

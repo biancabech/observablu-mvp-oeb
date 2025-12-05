@@ -35,15 +35,11 @@ export class Dashboard implements OnInit, AfterViewInit, OnDestroy {
   constructor(private dashboardService: DashboardService) { }
 
   ngOnInit(): void {
-    // Carregar dados ANTES dos gráficos serem criados
     this.carregarDados();
   }
 
   ngAfterViewInit(): void {
-    // Criar gráficos APÓS o DOM estar pronto
-    setTimeout(() => {
-      this.criarGraficos();
-    }, 100);
+    this.criarGraficos();
   }
 
   private carregarDados(): void {
